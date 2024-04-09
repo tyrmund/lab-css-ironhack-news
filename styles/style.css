@@ -223,6 +223,12 @@ header img {
     align-items: center;
   }
 
+  .main-article,
+  .article {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .main-article {
     display: flex;
     flex-direction: column;
@@ -235,7 +241,7 @@ header img {
   }
 
   .main-article .image {
-    width: 80%;
+    width: 100%;
     padding: 0 5px;
     height: auto;
   }
